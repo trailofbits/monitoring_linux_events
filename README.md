@@ -55,8 +55,8 @@ export SYSPROF_TOOLCHAIN_PATH="$(realpath osquery-toolchain)"
 git clone https://github.com/trailofbits/monitoring_linux_events
 
 # Configure the project
-mkdir build
-( cd build && cmake "-DSYSPROF_TOOLCHAIN_PATH=${SYSPROF_TOOLCHAIN_PATH}" ../monitoring_linux_events )
+mkdir build && cd build
+cmake "-DSYSPROF_TOOLCHAIN_PATH=${SYSPROF_TOOLCHAIN_PATH}" ../monitoring_linux_events
 
 # Start the build
 cmake --build . -j $(nproc)
