@@ -1,7 +1,7 @@
 # Monitoring Linux events
 
 ## Links
- - Empire Hacking talk: [TODO](https://www.youtube.com/user/trailofbits)
+ - [Empire Hacking talk](https://youtu.be/9ufYYq5HH_0)
  - Slides: [TODO](https://trailofbits.com)
 
 # Runtime requirements
